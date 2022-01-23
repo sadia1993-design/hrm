@@ -1,4 +1,4 @@
- ![HRM](/assets/images/hrm.jpeg "HRM")
+<img src="assets/images/hrm.jpeg" alt="hrm" style="width:200px;margin:0 auto; display:block"/>
 
 ## ***HRM***  
 
