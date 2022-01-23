@@ -1,0 +1,29 @@
+.cnd_dtl ul{
+    list-style-type: none;
+    font-size: 25px;
+}
+.ui-datepicker-calendar {
+    display: none;
+    }
+
+    .font-icon {
+    color: #b78909;
+    font-size: 20px;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+
+.icon-attached.d-flex  {
+    position: relative;
+}
+.icon-attached.d-flex input {
+    padding-left: 50px;
+}
+.main-sidebar{
+    background: #1c1e2f !important;
+}
+body {
+    font-family: 'Source Sans Pro';
+    font-size: 12px;
+}
