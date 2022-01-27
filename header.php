@@ -3,7 +3,7 @@ session_start();
 if (!isset($_SESSION['name'])) {
   header("location: index.php");
 }
-$db_connect = new mysqli("b45prdsvk4ln4ywqprxt-mysql.services.clever-cloud.com", "ufvpdfl30ruupkkv", "wHAKwN8NwmpjzoyRvaVJ", "b45prdsvk4ln4ywqprxt");
+$conn = new mysqli("b45prdsvk4ln4ywqprxt-mysql.services.clever-cloud.com", "ufvpdfl30ruupkkv", "wHAKwN8NwmpjzoyRvaVJ", "b45prdsvk4ln4ywqprxt");
 
 ?>
 <!DOCTYPE html>
