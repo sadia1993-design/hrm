@@ -1,11 +1,7 @@
 <?php
 
-
-   echo 'HELLO';
-exit;
-
 session_start();
-$db_connect = new mysqli("localhost", "root", "", "php_project");
+$db_connect = new mysqli("b45prdsvk4ln4ywqprxt-mysql.services.clever-cloud.com", "ufvpdfl30ruupkkv", "wHAKwN8NwmpjzoyRvaVJ", "b45prdsvk4ln4ywqprxt");
 
 $selectTable = $db_connect->query("select * from admin");
 
