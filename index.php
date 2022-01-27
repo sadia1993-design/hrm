@@ -1,4 +1,9 @@
 <?php
+
+
+   echo 'HELLO';
+exit;
+
 session_start();
 $db_connect = new mysqli("localhost", "root", "", "php_project");
 
