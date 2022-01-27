@@ -1,5 +1,4 @@
 <?php 
-echo 'Hello'; exit;
 require_once("header.php");
 require_once("sidebar.php");?>
 <section class="content-header">
