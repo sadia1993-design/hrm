@@ -1,7 +1,8 @@
 <?php
 @session_start();
 
-require("db_config.php");
+$conn = new mysqli("b45prdsvk4ln4ywqprxt-mysql.services.clever-cloud.com", "ufvpdfl30ruupkkv", "wHAKwN8NwmpjzoyRvaVJ", "b45prdsvk4ln4ywqprxt");
+
 if (isset($_GET['employee_id'])) {
     $employee_id = $_GET['employee_id'];
     $start_date = $_GET['start_date'];
