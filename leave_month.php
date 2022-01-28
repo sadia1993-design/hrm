@@ -118,7 +118,7 @@ $emp_table = $conn->query("SELECT empID, name FROM employee");
 
             //ajax call
             $.ajax({
-                url: "hrm/leave_search.php",
+                url: "leave_search.php",
                 method: "get",
                 data: {
                     "employee_id": employeeId,
