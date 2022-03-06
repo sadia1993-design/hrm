@@ -329,25 +329,16 @@
 
 
 
-         <?php 
-         $conn = new mysqli("b45prdsvk4ln4ywqprxt-mysql.services.clever-cloud.com", "ufvpdfl30ruupkkv", "wHAKwN8NwmpjzoyRvaVJ", "b45prdsvk4ln4ywqprxt");
-         $allAdmin = $conn->query("SELECT * FROM `admin`");
-         while ($one=$allAdmin->fetch_assoc()) {
-            if($one['email'] != 'nishatssanjida900@gmail.com'){ ?>
-         
-                <li class="nav-item">
-                   <a href="admin.php" class="nav-link ">
-                     <i class="fas fa-users"></i>
-                     <p> User Lists
-                     </p>
-                   </a>
-                 </li>
-         
-         <?php
-            }
-         }
-            
-         ?>
+<!--                 <li class="nav-item">-->
+<!--                     <a href="admin.php" class="nav-link ">-->
+<!--                         <i class="fas fa-users"></i>-->
+<!--                         <p> User Lists-->
+<!--                         </p>-->
+<!--                     </a>-->
+<!--                 </li>-->
+
+
+
          
 
 
