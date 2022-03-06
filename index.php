@@ -73,11 +73,11 @@ if (isset($_POST['user'])) {
                         </div>
                         <form method="post" action="">
                             <div class="icon-attached d-flex">
-                                <input class="form-control" type="email" name="user" placeholder="E-mail Address" required>
+                                <input class="form-control" type="email" name="user" placeholder="E-mail Address (nishatssanjida900@gmail.com)" required>
                                 <i class="fas fa-envelope font-icon"></i>
                             </div>
                             <div class="icon-attached d-flex">
-                                <input class="form-control" type="password" name="passwd" placeholder="Password" required>
+                                <input class="form-control" type="password" name="passwd" placeholder="Password (hasan123)" required>
                                 <i class="fas fa-lock  font-icon"></i>
                             </div>
                             <div class="form-button text-center">
